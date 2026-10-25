@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "LoginWithValidCredentials_Chrome",
+    "Username": "Admin",
+    "Password": "admin123"
+  },
+  {
+    "Browser": "firefox",
+    "Runmode": "Y",
+    "TestName": "LoginWithValidCredentials_Firefox",
+    "Username": "Admin",
+    "Password": "admin123"
+  },
+  {
+    "Browser": "edge",
+    "Runmode": "Y",
+    "TestName": "LoginWithValidCredentials_Edge",
+    "Username": "Admin",
+    "Password": "admin123"
+  }
+
+]

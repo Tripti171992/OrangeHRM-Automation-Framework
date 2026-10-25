@@ -1,0 +1,215 @@
+﻿<locators>
+
+	<LoginPage>
+
+		<Username>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='username1']</LocatorValue>
+		</Username>
+
+		<Password>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='password']</LocatorValue>
+		</Password>
+
+		<LoginButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[@type='submit']</LocatorValue>
+		</LoginButton>
+		<InvalidCredentialsMessage>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//p[contains(@class,'oxd-alert-content-text')]</LocatorValue>
+		</InvalidCredentialsMessage>
+		<UsernameRequiredErrorMessage>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div/input[@placeholder='Username']/parent::div/following-sibling::span[contains(@class,'oxd-input-field-error-message')]</LocatorValue>
+		</UsernameRequiredErrorMessage>
+		<PasswordRequiredErrorMessage>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div/input[@placeholder='Password']/parent::div/following-sibling::span[contains(@class,'oxd-input-field-error-message')]</LocatorValue>
+		</PasswordRequiredErrorMessage>
+		<ForgotPassword>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//p[contains(@class,'orangehrm-login-forgot-header')]</LocatorValue>
+		</ForgotPassword>
+	</LoginPage>
+	<AuthenticatedPage>
+		<NavigationMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//ul[@class="oxd-main-menu"]</LocatorValue>
+		</NavigationMenu>
+		<AdminMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'viewAdminModule')]</LocatorValue>
+		</AdminMenu>
+		<PIMMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'viewPimModule')]</LocatorValue>
+		</PIMMenu>
+		<LeaveMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'viewLeaveModule')]</LocatorValue>
+		</LeaveMenu>
+		<TimeMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'viewTimeModule')]</LocatorValue>
+		</TimeMenu>
+		<RecruitmentMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'viewRecruitmentModule')]</LocatorValue>
+		</RecruitmentMenu>
+		<DashboardMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(@href,'dashboard/index')]</LocatorValue>
+		</DashboardMenu>
+		<UserDropdown>
+			<LocatorType>CSS</LocatorType>
+			<LocatorValue>.oxd-userdropdown-tab</LocatorValue>
+		</UserDropdown>
+		<Logout>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[normalize-space()='Logout']</LocatorValue>
+		</Logout>
+		<PageTitle>
+			<LocatorType>CSS</LocatorType>
+			<LocatorValue>.oxd-topbar-header-breadcrumb h6</LocatorValue>
+		</PageTitle>
+	</AuthenticatedPage>
+	<PIMNavigation>
+		<ConfigurationTab>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//span[contains(text(),'Configuration ')]</LocatorValue>
+		</ConfigurationTab>
+		<EmployeeListTab>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(text(),'Employee List')]</LocatorValue>
+		</EmployeeListTab>
+		<AddEmployeeTab>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(text(),'Add Employee')]</LocatorValue>
+		</AddEmployeeTab>
+		<ReportsTab>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//a[contains(text(),'Reports')]</LocatorValue>
+		</ReportsTab>
+		<PIMNavigationMenu>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//span/h6[text()='PIM']/parent::span/parent::div/parent::div/following-sibling::div/nav[@class='oxd-topbar-body-nav']/ul</LocatorValue>
+		</PIMNavigationMenu>
+		<LoaderSpinner>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[@class='oxd-loading-spinner']</LocatorValue>
+		</LoaderSpinner>
+		<FormLoader>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[contains(@class,'oxd-form-loader')]</LocatorValue>
+		</FormLoader>
+	</PIMNavigation>
+
+	<EmployeeListPage>
+		<EmployeeName>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Employee Name']/following::input[1]</LocatorValue>
+		</EmployeeName>
+		<EmployeeId>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Employee Id']/following::input[1]</LocatorValue>
+		</EmployeeId>
+		<EmployeeStatus>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Employment Status']/parent::div/following-sibling::div//div[@tabindex='0']</LocatorValue>
+		</EmployeeStatus>
+		<Include>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Include']/parent::div/following-sibling::div//div[@tabindex='0']</LocatorValue>
+		</Include>
+		<SupervisorName>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Supervisor Name']/following::input[1]</LocatorValue>
+		</SupervisorName>
+		<JobTitle>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Job Title']/parent::div/following-sibling::div//div[@tabindex='0']</LocatorValue>
+		</JobTitle>
+		<SubUnit>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Sub Unit']/parent::div/following-sibling::div//div[@tabindex='0']</LocatorValue>
+		</SubUnit>
+		<AddButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[normalize-space()='Add']</LocatorValue>
+		</AddButton>
+		<ResetButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[normalize-space()='Reset']</LocatorValue>
+		</ResetButton>
+		<SearchButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[normalize-space()='Search']</LocatorValue>
+		</SearchButton>
+		<Record>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[@class='oxd-table-card']</LocatorValue>
+		</Record>
+		<NoRecordFoundMessage>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//span[text()='No Records Found']</LocatorValue>
+		</NoRecordFoundMessage>
+		<LoaderSpinner>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[@class='oxd-loading-spinner']</LocatorValue>
+		</LoaderSpinner>
+	</EmployeeListPage>
+
+	<AddEmployeePage>
+		<FirstName>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='firstName']</LocatorValue>
+		</FirstName>
+		<MiddleName>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='middleName']</LocatorValue>
+		</MiddleName>
+		<LastName>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='lastName']</LocatorValue>
+		</LastName>
+		<EmployeeId>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//label[text()='Employee Id']/following::input[1]</LocatorValue>
+		</EmployeeId>
+		<SaveButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[normalize-space()='Save']</LocatorValue>
+		</SaveButton>
+		<CancelButton>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//button[normalize-space()='Cancel']</LocatorValue>
+		</CancelButton>
+		<SuccessToast>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[contains(@class,'oxd-toast--success')]</LocatorValue>
+		</SuccessToast>
+		<EmployeeIDExistError>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//span[text()='Employee Id already exists']</LocatorValue>
+		</EmployeeIDExistError>
+		<FirstNameError>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='firstName']/parent::div/following-sibling::span</LocatorValue>
+		</FirstNameError>
+		<LastNameError>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//input[@name='lastName']/parent::div/following-sibling::span</LocatorValue>
+		</LastNameError>
+		<LoaderSpinner>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[@class='oxd-loading-spinner']</LocatorValue>
+		</LoaderSpinner>
+		<FormLoader>
+			<LocatorType>XPATH</LocatorType>
+			<LocatorValue>//div[@class='oxd-form-loader']</LocatorValue>
+		</FormLoader>
+	</AddEmployeePage>
+
+</locators>

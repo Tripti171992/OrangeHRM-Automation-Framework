@@ -1,0 +1,15 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "CancelAddEmployee",
+    "FirstName": "CancelFN",
+    "MiddleName": "CancelMN",
+    "LastName": "CancelLN",
+    "EmployeeId": "",
+    "EmploymentStatus": "-- Select --",
+    "SupervisorName": "",
+    "JobTitle": "-- Select --",
+    "SubUnit": "-- Select --"
+  }
+]

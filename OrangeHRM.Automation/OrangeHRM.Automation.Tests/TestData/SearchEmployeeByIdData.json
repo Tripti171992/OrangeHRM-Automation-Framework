@@ -1,0 +1,15 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "SearchEmployeeById",
+    "FirstName": "SearchFN",
+    "MiddleName": "SearchMN",
+    "LastName": "SearchLN",
+    "EmployeeId": "Emp",
+    "EmploymentStatus": "-- Select --",
+    "SupervisorName": "",
+    "JobTitle": "-- Select --",
+    "SubUnit": "-- Select --"
+  }
+]

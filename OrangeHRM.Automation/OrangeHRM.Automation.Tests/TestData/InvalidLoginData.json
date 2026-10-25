@@ -1,0 +1,44 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "LoginWithInvalidUsername",
+    "Username": "InvalidUser",
+    "Password": "admin123"
+  },
+  {
+    "Browser": "firefox",
+    "Runmode": "Y",
+    "TestName": "LoginWithInvalidPassword",
+    "Username": "Admin",
+    "Password": "wrong123"
+  },
+  {
+    "Browser": "edge",
+    "Runmode": "Y",
+    "TestName": "LoginWithInvalidCredentials",
+    "Username": "InvalidUser",
+    "Password": "wrong123"
+  },
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "LoginWithEmptyUsername",
+    "Username": "",
+    "Password": "admin123"
+  },
+  {
+    "Browser": "firefox",
+    "Runmode": "Y",
+    "TestName": "LoginWithEmptyPassword",
+    "Username": "Admin",
+    "Password": ""
+  },
+  {
+    "Browser": "edge",
+    "Runmode": "Y",
+    "TestName": "LoginWithEmptyCredentials",
+    "Username": "",
+    "Password": ""
+  }
+]

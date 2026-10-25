@@ -1,0 +1,28 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "SearchEmployeeByFullName",
+    "FirstName": "SearchFN",
+    "MiddleName": "SearchMN",
+    "LastName": "SearchLN",
+    "EmployeeId": "",
+    "EmploymentStatus": "-- Select --",
+    "SupervisorName": "",
+    "JobTitle": "-- Select --",
+    "SubUnit": "-- Select --"
+  },
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "SearchEmployeeWithoutMiddleName",
+    "FirstName": "SearchFN",
+    "MiddleName": "",
+    "LastName": "SearchLN",
+    "EmployeeId": "",
+    "EmploymentStatus": "-- Select --",
+    "SupervisorName": "",
+    "JobTitle": "-- Select --",
+    "SubUnit": "-- Select --"
+  }
+]

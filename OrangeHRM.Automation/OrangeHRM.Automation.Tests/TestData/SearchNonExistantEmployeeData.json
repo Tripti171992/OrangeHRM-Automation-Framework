@@ -1,0 +1,7 @@
+﻿[
+  {
+    "Browser": "chrome",
+    "Runmode": "Y",
+    "TestName": "SearchNonExistentEmployee"
+  }
+]
