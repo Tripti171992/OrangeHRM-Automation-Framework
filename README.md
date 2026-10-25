@@ -91,7 +91,7 @@ It demonstrates my practical understanding of automation framework design, test 
 
 ## Project Structure
 
-
+```text
 OrangeHRM-Automation-Framework/
 │
 └── OrangeHRM.Automation/                    # Solution
@@ -102,7 +102,7 @@ OrangeHRM-Automation-Framework/
         │   ├── BaseTest.cs                   # Common setup and teardown for each test
         │   └── SuiteSetUp.cs                 # Suite-level setup and teardown
         │
-        ├── Model/
+        ├── Models/
         │   ├── EmployeeModel.cs               # Employee test data model
         │   ├── ITestExecutionModel.cs         # Test execution model interface
         │   ├── LoginModel.cs                  # Login test data model
